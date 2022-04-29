@@ -7,19 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		141ED07C28176BB60036CDFD /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141ED07B28176BB60036CDFD /* Project.swift */; };
+		1420BB13281C878C0074E6E5 /* LogListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1420BB12281C878C0074E6E5 /* LogListViewModel.swift */; };
+		1420BB15281C898F0074E6E5 /* LogFinder+DerivedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1420BB14281C898F0074E6E5 /* LogFinder+DerivedData.swift */; };
+		1420BB17281C8FEF0074E6E5 /* AdaptiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1420BB16281C8FEF0074E6E5 /* AdaptiveView.swift */; };
+		146346F428146C6C005BED48 /* XCLogParser in Frameworks */ = {isa = PBXBuildFile; productRef = 146346F328146C6C005BED48 /* XCLogParser */; };
+		14752E602814A72300A7E5D9 /* LogListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14752E5F2814A72300A7E5D9 /* LogListCellView.swift */; };
+		14752E622814AAB800A7E5D9 /* DateFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14752E612814AAB800A7E5D9 /* DateFormatting.swift */; };
+		14752E652814B51E00A7E5D9 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14752E642814B51E00A7E5D9 /* String+Extensions.swift */; };
+		1488838E281B6AB5001684F4 /* ProjectsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1488838D281B6AB5001684F4 /* ProjectsListViewModel.swift */; };
+		148B87E62819F05100241A6D /* ActionPerformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148B87E52819F05100241A6D /* ActionPerformer.swift */; };
+		148B87E82819F23200241A6D /* RefreshButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148B87E72819F23200241A6D /* RefreshButton.swift */; };
 		14B1307A281364890018C3DC /* BuildTimeTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B13079281364890018C3DC /* BuildTimeTrackerApp.swift */; };
-		14B1307C281364890018C3DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B1307B281364890018C3DC /* ContentView.swift */; };
+		14B1307C281364890018C3DC /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B1307B281364890018C3DC /* MainView.swift */; };
 		14B1307E2813648B0018C3DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14B1307D2813648B0018C3DC /* Assets.xcassets */; };
 		14B130812813648B0018C3DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14B130802813648B0018C3DC /* Preview Assets.xcassets */; };
+		14B1308B281365050018C3DC /* BuildLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B1308A281365050018C3DC /* BuildLog.swift */; };
+		14B1308E281365690018C3DC /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B1308D281365690018C3DC /* Parser.swift */; };
+		14B13091281367320018C3DC /* BuildLogsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B13090281367320018C3DC /* BuildLogsViewModel.swift */; };
+		14E631002818AD2F003A91A6 /* LogListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E630FF2818AD2F003A91A6 /* LogListView.swift */; };
+		14E631052818AEB7003A91A6 /* ProjectPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E631042818AEB7003A91A6 /* ProjectPickerView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		146346EE28146904005BED48 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		141ED07B28176BB60036CDFD /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		1420BB12281C878C0074E6E5 /* LogListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogListViewModel.swift; sourceTree = "<group>"; };
+		1420BB14281C898F0074E6E5 /* LogFinder+DerivedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LogFinder+DerivedData.swift"; sourceTree = "<group>"; };
+		1420BB16281C8FEF0074E6E5 /* AdaptiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptiveView.swift; sourceTree = "<group>"; };
+		14752E5F2814A72300A7E5D9 /* LogListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogListCellView.swift; sourceTree = "<group>"; };
+		14752E612814AAB800A7E5D9 /* DateFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatting.swift; sourceTree = "<group>"; };
+		14752E642814B51E00A7E5D9 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		1488838D281B6AB5001684F4 /* ProjectsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsListViewModel.swift; sourceTree = "<group>"; };
+		148B87E52819F05100241A6D /* ActionPerformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionPerformer.swift; sourceTree = "<group>"; };
+		148B87E72819F23200241A6D /* RefreshButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshButton.swift; sourceTree = "<group>"; };
 		14B13076281364890018C3DC /* BuildTimeTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuildTimeTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14B13079281364890018C3DC /* BuildTimeTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildTimeTrackerApp.swift; sourceTree = "<group>"; };
-		14B1307B281364890018C3DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		14B1307B281364890018C3DC /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		14B1307D2813648B0018C3DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14B130802813648B0018C3DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		14B130822813648B0018C3DC /* BuildTimeTracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BuildTimeTracker.entitlements; sourceTree = "<group>"; };
+		14B1308A281365050018C3DC /* BuildLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildLog.swift; sourceTree = "<group>"; };
+		14B1308D281365690018C3DC /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		14B13090281367320018C3DC /* BuildLogsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildLogsViewModel.swift; sourceTree = "<group>"; };
+		14E630FF2818AD2F003A91A6 /* LogListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogListView.swift; sourceTree = "<group>"; };
+		14E631042818AEB7003A91A6 /* ProjectPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectPickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,16 +71,53 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				146346F428146C6C005BED48 /* XCLogParser in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14752E632814B51100A7E5D9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				14752E612814AAB800A7E5D9 /* DateFormatting.swift */,
+				14752E642814B51E00A7E5D9 /* String+Extensions.swift */,
+				1420BB14281C898F0074E6E5 /* LogFinder+DerivedData.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		148B87E42819F03800241A6D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				148B87E52819F05100241A6D /* ActionPerformer.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		148B87E9281A01CA00241A6D /* ReusableViews */ = {
+			isa = PBXGroup;
+			children = (
+				148B87E72819F23200241A6D /* RefreshButton.swift */,
+				1420BB16281C8FEF0074E6E5 /* AdaptiveView.swift */,
+			);
+			path = ReusableViews;
+			sourceTree = "<group>";
+		};
+		148B87EC281A0B1100241A6D /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				14E630FE2818A66B003A91A6 /* MainScreen */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
 		14B1306D281364890018C3DC = {
 			isa = PBXGroup;
 			children = (
 				14B13078281364890018C3DC /* BuildTimeTracker */,
+				14E630FD2818A373003A91A6 /* Resources */,
 				14B13077281364890018C3DC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,10 +134,12 @@
 			isa = PBXGroup;
 			children = (
 				14B13079281364890018C3DC /* BuildTimeTrackerApp.swift */,
-				14B1307B281364890018C3DC /* ContentView.swift */,
-				14B1307D2813648B0018C3DC /* Assets.xcassets */,
-				14B130822813648B0018C3DC /* BuildTimeTracker.entitlements */,
-				14B1307F2813648B0018C3DC /* Preview Content */,
+				148B87EC281A0B1100241A6D /* Screens */,
+				148B87E9281A01CA00241A6D /* ReusableViews */,
+				148B87E42819F03800241A6D /* Helpers */,
+				14B1308C281365450018C3DC /* Logic */,
+				14B13089281364F90018C3DC /* Model */,
+				14752E632814B51100A7E5D9 /* Extensions */,
 			);
 			path = BuildTimeTracker;
 			sourceTree = "<group>";
@@ -69,6 +152,63 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		14B13088281364EB0018C3DC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				14B1307B281364890018C3DC /* MainView.swift */,
+				14E631042818AEB7003A91A6 /* ProjectPickerView.swift */,
+				14E630FF2818AD2F003A91A6 /* LogListView.swift */,
+				14752E5F2814A72300A7E5D9 /* LogListCellView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		14B13089281364F90018C3DC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				141ED07B28176BB60036CDFD /* Project.swift */,
+				14B1308A281365050018C3DC /* BuildLog.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		14B1308C281365450018C3DC /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				14B1308D281365690018C3DC /* Parser.swift */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		14B1308F2813671E0018C3DC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				14B13090281367320018C3DC /* BuildLogsViewModel.swift */,
+				1488838D281B6AB5001684F4 /* ProjectsListViewModel.swift */,
+				1420BB12281C878C0074E6E5 /* LogListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		14E630FD2818A373003A91A6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				14B130822813648B0018C3DC /* BuildTimeTracker.entitlements */,
+				14B1307D2813648B0018C3DC /* Assets.xcassets */,
+				14B1307F2813648B0018C3DC /* Preview Content */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		14E630FE2818A66B003A91A6 /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				14B13088281364EB0018C3DC /* Views */,
+				14B1308F2813671E0018C3DC /* ViewModel */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -79,12 +219,16 @@
 				14B13072281364890018C3DC /* Sources */,
 				14B13073281364890018C3DC /* Frameworks */,
 				14B13074281364890018C3DC /* Resources */,
+				146346EE28146904005BED48 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = BuildTimeTracker;
+			packageProductDependencies = (
+				146346F328146C6C005BED48 /* XCLogParser */,
+			);
 			productName = BuildTimeTracker;
 			productReference = 14B13076281364890018C3DC /* BuildTimeTracker.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +257,9 @@
 				Base,
 			);
 			mainGroup = 14B1306D281364890018C3DC;
+			packageReferences = (
+				146346F228146C6C005BED48 /* XCRemoteSwiftPackageReference "XCLogParser" */,
+			);
 			productRefGroup = 14B13077281364890018C3DC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,8 +286,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14B1307C281364890018C3DC /* ContentView.swift in Sources */,
+				148B87E62819F05100241A6D /* ActionPerformer.swift in Sources */,
+				1488838E281B6AB5001684F4 /* ProjectsListViewModel.swift in Sources */,
+				141ED07C28176BB60036CDFD /* Project.swift in Sources */,
+				14B1308E281365690018C3DC /* Parser.swift in Sources */,
+				14752E602814A72300A7E5D9 /* LogListCellView.swift in Sources */,
+				14752E622814AAB800A7E5D9 /* DateFormatting.swift in Sources */,
+				14B1307C281364890018C3DC /* MainView.swift in Sources */,
+				14752E652814B51E00A7E5D9 /* String+Extensions.swift in Sources */,
+				1420BB17281C8FEF0074E6E5 /* AdaptiveView.swift in Sources */,
+				14B1308B281365050018C3DC /* BuildLog.swift in Sources */,
+				14B13091281367320018C3DC /* BuildLogsViewModel.swift in Sources */,
+				1420BB13281C878C0074E6E5 /* LogListViewModel.swift in Sources */,
 				14B1307A281364890018C3DC /* BuildTimeTrackerApp.swift in Sources */,
+				1420BB15281C898F0074E6E5 /* LogFinder+DerivedData.swift in Sources */,
+				148B87E82819F23200241A6D /* RefreshButton.swift in Sources */,
+				14E631002818AD2F003A91A6 /* LogListView.swift in Sources */,
+				14E631052818AEB7003A91A6 /* ProjectPickerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +342,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = ../BuildTimeTracker/Resources/BuildTimeTracker.entitlements;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -241,6 +404,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = ../BuildTimeTracker/Resources/BuildTimeTracker.entitlements;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -267,15 +431,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = BuildTimeTracker/BuildTimeTracker.entitlements;
+				CODE_SIGN_ENTITLEMENTS = ../BuildTimeTracker/Resources/BuildTimeTracker.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BuildTimeTracker/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "Resources/Preview\\ Content";
 				DEVELOPMENT_TEAM = 235K7U278B;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -294,15 +459,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = BuildTimeTracker/BuildTimeTracker.entitlements;
+				CODE_SIGN_ENTITLEMENTS = ../BuildTimeTracker/Resources/BuildTimeTracker.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BuildTimeTracker/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "Resources/Preview\\ Content";
 				DEVELOPMENT_TEAM = 235K7U278B;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -338,6 +504,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		146346F228146C6C005BED48 /* XCRemoteSwiftPackageReference "XCLogParser" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MobileNativeFoundation/XCLogParser";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.8;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		146346F328146C6C005BED48 /* XCLogParser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 146346F228146C6C005BED48 /* XCRemoteSwiftPackageReference "XCLogParser" */;
+			productName = XCLogParser;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 14B1306E281364890018C3DC /* Project object */;
 }

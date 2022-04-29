@@ -1,17 +1,15 @@
-//
-//  BuildTimeTrackerApp.swift
-//  BuildTimeTracker
-//
-//  Created by Алексей Гурин on 23.04.2022.
-//
-
 import SwiftUI
 
 @main
 struct BuildTimeTrackerApp: App {
+    @StateObject
+    private var viewModel: BuildLogsViewModel = .init()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView(viewModel: viewModel)
+                .frame(minWidth: 300, idealWidth: 300, minHeight: 300, idealHeight: 400)
+                .navigationTitle("Build time tracker")
         }
     }
 }
