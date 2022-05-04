@@ -17,6 +17,7 @@ struct MainView: View {
                 LogListView(viewModel: viewModel.logsListViewModel)
             }
         }
+        .animation(.easeInOut, value: viewModel.isLoading)
         .task {
             await viewModel.loadProjects()
         }

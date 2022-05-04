@@ -27,7 +27,6 @@ You're welcome to branch from `develop` and create pull request with format (des
 # ToDo
 
 - CoreData logs storing and merging with retrieved because of unpredictable manifests cleaning
-- Add animated transition between states (refreshing -> list -> refreshing)
 - Others comments in code like **"todo: ..."**
 
 # Technologies
