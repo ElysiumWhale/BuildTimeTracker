@@ -23,12 +23,13 @@ final class BuildLogsViewModel: ObservableObject {
         self.projectsListViewModel = projectsListViewModel
         self.logsListViewModel = logsListViewModel
 
-        // todo: replace subscription with .onChange() in MainView (actually doesn't work)
         projectsListViewModel.$selectedProject
+            .dropFirst()
             .removeDuplicates()
-            .sink { _ in
+            .compactMap { $0 }
+            .sink { project in
                 Task {
-                    await self.reload()
+                    await self.loadLogs(for: project)
                 }
             }
             .store(in: &subscribers)
@@ -38,11 +39,7 @@ final class BuildLogsViewModel: ObservableObject {
         isLoading = true
         projectsListViewModel.projects = await parser.loadProjectsNames().map { .init(name: $0) }
 
-        if projectsListViewModel.selectedProject == nil,
-           let project = projectsListViewModel.projects.first {
-
-            projectsListViewModel.selectedProject = project
-        } else {
+        if projectsListViewModel.projects.isEmpty {
             isLoading = false
         }
     }
