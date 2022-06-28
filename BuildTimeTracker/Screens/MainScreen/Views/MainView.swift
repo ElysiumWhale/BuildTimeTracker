@@ -1,8 +1,8 @@
 import SwiftUI
 
 struct MainView: View {
-    @ObservedObject
-    var viewModel: BuildLogsViewModel
+    @StateObject
+    private var viewModel: BuildLogsViewModel = .init()
 
     var body: some View {
         VStack {
@@ -29,6 +29,6 @@ struct MainView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        MainView(viewModel: .init())
+        MainView()
     }
 }
