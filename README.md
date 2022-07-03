@@ -4,7 +4,7 @@ Open source app for tracking time spent on building projects.
 
 ## Pre-alpha look
 
-<img width="735" alt="image" src="https://user-images.githubusercontent.com/38838291/166075232-6132e5bc-1c78-406b-ac5e-45c118f6df72.png">
+<img width="572" alt="Снимок экрана 2022-07-04 в 00 57 32" src="https://user-images.githubusercontent.com/38838291/177057078-bf980bad-2d7c-4dd9-9d55-c2cf4ead7525.png">
 
 
 # Contribution
@@ -26,8 +26,9 @@ You're welcome to branch from `develop` and create pull request with format (des
 
 # ToDo
 
-- CoreData logs storing and merging with retrieved because of unpredictable manifests cleaning
-- Others comments in code like **"todo: ..."**
+- [x] Menu bar mode and running as agent
+- [ ] CoreData logs storing and merging with retrieved because of unpredictable manifests cleaning
+- [ ] Others comments in code like **"todo: ..."**
 
 # Technologies
 
