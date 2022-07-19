@@ -27,6 +27,7 @@
 		14B13091281367320018C3DC /* BuildLogsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B13090281367320018C3DC /* BuildLogsViewModel.swift */; };
 		14E631002818AD2F003A91A6 /* LogListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E630FF2818AD2F003A91A6 /* LogListView.swift */; };
 		14E631052818AEB7003A91A6 /* ProjectPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E631042818AEB7003A91A6 /* ProjectPickerView.swift */; };
+		A76ED8272864F036003FA83E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76ED8262864F036003FA83E /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -64,6 +65,8 @@
 		14B13090281367320018C3DC /* BuildLogsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildLogsViewModel.swift; sourceTree = "<group>"; };
 		14E630FF2818AD2F003A91A6 /* LogListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogListView.swift; sourceTree = "<group>"; };
 		14E631042818AEB7003A91A6 /* ProjectPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectPickerView.swift; sourceTree = "<group>"; };
+		A76ED8262864F036003FA83E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A7C049292872347D008FDA52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +136,7 @@
 		14B13078281364890018C3DC /* BuildTimeTracker */ = {
 			isa = PBXGroup;
 			children = (
+				A76ED8262864F036003FA83E /* AppDelegate.swift */,
 				14B13079281364890018C3DC /* BuildTimeTrackerApp.swift */,
 				148B87EC281A0B1100241A6D /* Screens */,
 				148B87E9281A01CA00241A6D /* ReusableViews */,
@@ -195,6 +199,7 @@
 			children = (
 				14B130822813648B0018C3DC /* BuildTimeTracker.entitlements */,
 				14B1307D2813648B0018C3DC /* Assets.xcassets */,
+				A7C049292872347D008FDA52 /* Info.plist */,
 				14B1307F2813648B0018C3DC /* Preview Content */,
 			);
 			path = Resources;
@@ -298,6 +303,7 @@
 				14B1308B281365050018C3DC /* BuildLog.swift in Sources */,
 				14B13091281367320018C3DC /* BuildLogsViewModel.swift in Sources */,
 				1420BB13281C878C0074E6E5 /* LogListViewModel.swift in Sources */,
+				A76ED8272864F036003FA83E /* AppDelegate.swift in Sources */,
 				14B1307A281364890018C3DC /* BuildTimeTrackerApp.swift in Sources */,
 				1420BB15281C898F0074E6E5 /* LogFinder+DerivedData.swift in Sources */,
 				148B87E82819F23200241A6D /* RefreshButton.swift in Sources */,
@@ -439,7 +445,8 @@
 				DEVELOPMENT_TEAM = 235K7U278B;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Resources/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -467,7 +474,8 @@
 				DEVELOPMENT_TEAM = 235K7U278B;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Resources/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (

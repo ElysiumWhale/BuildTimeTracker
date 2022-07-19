@@ -22,10 +22,18 @@ struct ProjectPickerView: View {
                     }
                 }
                 .frame(maxWidth: 350)
-                .padding(10)
+                .padding(.vertical, 10)
             }
 
             RefreshButton()
+                .help("Refresh (Cmd + R)")
+                .keyboardShortcut(.init("r"), modifiers: .command)
+            Button(action: {
+                NSApplication.shared.terminate(nil)
+            }, label: {
+                Image(systemName: "xmark.circle")
+            })
+            .help("Quit")
         }
     }
 }
