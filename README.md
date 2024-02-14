@@ -4,7 +4,7 @@ Open source app for tracking time spent on building projects.
 
 ## Pre-alpha look
 
-<img width="572" alt="Снимок экрана 2022-07-04 в 00 57 32" src="https://user-images.githubusercontent.com/38838291/177057078-bf980bad-2d7c-4dd9-9d55-c2cf4ead7525.png">
+<img width="572" alt="Снимок экрана 2022-07-04 в 00 57 32" src="https://github.com/ElysiumWhale/BuildTimeTracker/assets/38838291/3331e860-a457-4c59-be15-78dcbe9a7748">
 
 
 # Contribution
